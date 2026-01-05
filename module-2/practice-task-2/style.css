@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: sans-serif;
+}
+.heading{
+  margin: 10px 20px;
+  text-align: center;
+  color: green;
+}
+.paragraph{
+  margin: 10px 20px;
+  line-height: 1.25;
+  letter-spacing: -1px;
+  font-size: 18px;
+  color: grey;
+  text-align: center;
+}
+.ul-heading{
+  text-align: center;
+}
+.unorderd-list{
+  margin-top: 10px;
+  text-align: center;
+  list-style-position: inside;
+}
+.unorderd-list li{
+  margin: 10px;
+}

@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: darkslategrey;
+  font-family: sans-serif;
+}
+.container{
+  width: 600px;
+  margin: 10px auto;
+}
+.card{
+  width: 300px;
+  height: 400px;
+  margin: 10px auto;
+  box-shadow: 0px 5px 7px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  letter-spacing: -1px;
+  color: #101802;
+  font-size: 18px;
+}
+.card img{
+  width: inherit;
+  height: 60%;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.card h2{
+  text-align: center;
+  margin-top: 5px;
+}
+.card p{
+  padding: 10px 20px;
+}

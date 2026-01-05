@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  background-color: darkslategray;
+}
+.section-1{
+  width: 650px;
+  background-color: aqua;
+  margin: 10px auto;
+  background-image: url("images/street-food.jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  text-align: center;
+  color: green;
+  box-shadow: 0px 5px 7px rgba(0,0,0,0.5);
+}
+.section-2, .section-3{
+  text-align: center;
+  width: 650px;
+  margin: 10px auto;
+  background-color: aqua;
+  opacity: 0.7;
+  padding: 10px;
+  box-shadow: 0px 5px 7px rgba(0,0,0,0.5);
+}
+.section-2 h2{
+  margin-bottom: 10px;
+}
+.section-3 h2{
+  margin-bottom: 10px;
+}

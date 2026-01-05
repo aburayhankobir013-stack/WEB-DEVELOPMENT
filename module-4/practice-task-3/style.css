@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  background-color: darkslategrey;
+}
+.container{
+  max-width: 1200px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+section{
+  width: 70%;
+  padding: 2rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  background-color: aqua;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 0.7rem rgba(0,0,0,0.5);
+}
+h1{
+  font-size: 2.5rem;
+}
+table td{
+  border: 1px solid black;
+  padding: 1rem 2rem;
+
+}
+table th{
+  border: 1px solid black;
+  padding: 1rem 2rem;
+}
+table{
+  text-align: center;
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+caption{
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
